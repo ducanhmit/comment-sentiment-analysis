@@ -38,3 +38,12 @@ with open('comments.csv', 'r') as file:
 - [ ] So sánh chọn mô hình
 - [ ] Xây dựng trang web hiển thị kết quả phân tích
 - [ ] Tích hợp hệ thống
+
+
+# Referencies
+1. Xây dựng mô hình không gian vector cho Tiếng Việt
+https://viblo.asia/p/xay-dung-mo-hinh-khong-gian-vector-cho-tieng-viet-GrLZDXr2Zk0
+
+2. Phân tích phản hồi khách hàng hiệu quả với Machine learning(Vietnamese Sentiment Analysis)
+
+https://viblo.asia/p/phan-tich-phan-hoi-khach-hang-hieu-qua-voi-machine-learningvietnamese-sentiment-analysis-Eb85opXOK2G
