@@ -13,6 +13,7 @@ python3 histogram.py
     - Comment có độ dài tối đa là 1698
 
 ## File dữ liệu: comments.csv 
+Số lương comment 883510
 - Địng dạng csv tối ưu cho xử lý dữ liệu lớn, giúp tăng tốc xử lý của máy tính
 - chứa toàn bọ tất cả 900k comments, mỗi comment là 1 row, 
 - row đầu tiên là header, bỏ đi khi read
@@ -29,7 +30,30 @@ with open('comments.csv', 'r', encoding='utf-16') as file:
     for row in reader:
         print(row)
 ```
-- Có thể dùng pandas để tăng tốc xử lý
+- Có thể dùng pandas để tăng tốc xử 
+
+
+## File dữ liệu sau khi loại bỏ các comment NULL/Empty: comments_1.csv 
+
+Số lượng comment giảm còn 811104
+
+```
+python3 remove_null.py
+```
+
+## File dữ liệu sau khi loại bỏ các comment bị duplicated : comments_2.csv 
+
+Số lượng comment giảm còn 489709 :))
+
+```
+python3 remove_duplicates.py
+```
+
+## File dữ liệu sau khi chuẩn hóa: chuyển về lowercase, : comments_3.csv
+
+```
+python3 to_lowercase.py
+```
 
 ### TODO List.
 - [x] Vẽ đồ thì histogram của dữ liệu.
