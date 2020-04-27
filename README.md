@@ -59,6 +59,10 @@ python3 to_lowercase.py
 - [x] Vẽ đồ thì histogram của dữ liệu.
 - [x] Chuyển dữ liệu về 1 file địng dạng csv.
 - [ ] Chuẩn hóa, làm sạch dữ liệu.
+    - [x] Loại bỏ ký tự null
+    - [x] Loại bỏ các comment bị duplicate
+    - [x] Chuyển về ký tự lowcase
+    - [x] Loại bỏ các emoji, emoticon
 - [ ] Thử nghiệm các mô hình
 - [ ] So sánh chọn mô hình
 - [ ] Xây dựng trang web hiển thị kết quả phân tích
