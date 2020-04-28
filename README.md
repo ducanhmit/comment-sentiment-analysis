@@ -49,10 +49,14 @@ Số lượng comment giảm còn 489709 :))
 python3 remove_duplicates.py
 ```
 
-## File dữ liệu sau khi chuẩn hóa: chuyển về lowercase, : comments_3.csv
+## File dữ liệu sau khi chuẩn hóa: chuyển về lowercase : comments_3.csv
 
 ```
 python3 to_lowercase.py
+```
+## File dữ liệu sau khi chuẩn hóa: loại bỏ các emoticon và emoji : comments_4.csv
+```
+python3 replace_emot.py
 ```
 
 ### TODO List.
@@ -61,8 +65,9 @@ python3 to_lowercase.py
 - [ ] Chuẩn hóa, làm sạch dữ liệu.
     - [x] Loại bỏ ký tự null
     - [x] Loại bỏ các comment bị duplicate
-    - [x] Chuyển về ký tự lowcase
+    - [x] Chuyển về ký tự lowercase
     - [x] Loại bỏ các emoji, emoticon
+    - [x] Loại bỏ các tag html, các url 
 - [ ] Thử nghiệm các mô hình
 - [ ] So sánh chọn mô hình
 - [ ] Xây dựng trang web hiển thị kết quả phân tích
